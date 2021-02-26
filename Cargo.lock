@@ -3047,7 +3047,6 @@ dependencies = [
 [[package]]
 name = "quaint"
 version = "0.2.0-alpha.13"
-source = "git+https://github.com/prisma/quaint#da006120bb411d079a171ac2fb1f38f81e1b8b34"
 dependencies = [
  "async-trait",
  "base64 0.12.3",
@@ -3061,7 +3060,6 @@ dependencies = [
  "futures 0.3.13",
  "hex",
  "libsqlite3-sys",
- "log",
  "lru-cache",
  "metrics",
  "mobc",
