@@ -35,6 +35,7 @@ features = [
   "serde-support"
 ]
 git = "https://github.com/prisma/quaint"
+rev = "bf427c07c01b9ee15225fab3b8bde86794d49e38"
 
 [dependencies.connector-interface]
 package = "query-connector"
@@ -61,6 +62,7 @@ version = "1.0"
 
 [dependencies.cuid]
 git = "https://github.com/prisma/cuid-rust"
+rev = "4ffb2e47c772af62fed3ddc92bb7fc444d19e159"
 
 [dependencies.user-facing-errors]
 features = ["sql"]

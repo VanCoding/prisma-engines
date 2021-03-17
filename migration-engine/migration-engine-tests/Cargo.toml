@@ -42,5 +42,6 @@ connection-string = "0.1.13"
 
 [dependencies.quaint]
 git = "https://github.com/prisma/quaint"
+rev = "bf427c07c01b9ee15225fab3b8bde86794d49e38"
 optional = true
 features = ["serde-support", "vendored-openssl"]

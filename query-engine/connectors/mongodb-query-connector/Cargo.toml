@@ -11,7 +11,7 @@ bigdecimal = "0.2"
 # bson = {version = "1.1.0", features = ["decimal128"]}
 futures = "0.3"
 itertools = "0.8"
-mongodb = { git = "https://github.com/mongodb/mongo-rust-driver.git" }
+mongodb = { git = "https://github.com/mongodb/mongo-rust-driver.git", rev = "f30bb587f4956d68a168e8b5792844c45b845e00" }
 rand = "0.7"
 regex = "1"
 serde_json = { version = "1.0", features = ["float_roundtrip"] }
@@ -49,6 +49,7 @@ version = "1.0"
 
 [dependencies.cuid]
 git = "https://github.com/prisma/cuid-rust"
+rev = "4ffb2e47c772af62fed3ddc92bb7fc444d19e159"
 
 [dependencies.user-facing-errors]
 features = ["sql"]

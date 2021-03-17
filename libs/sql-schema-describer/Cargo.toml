@@ -22,6 +22,7 @@ tracing-futures = "0.2.4"
 
 [dependencies.quaint]
 git = "https://github.com/prisma/quaint"
+rev = "bf427c07c01b9ee15225fab3b8bde86794d49e38"
 features = [
     "serde-support",
     "chrono",
